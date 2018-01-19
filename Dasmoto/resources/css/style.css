@@ -1,0 +1,81 @@
+html {
+  font-family: Helvetica;
+  margin: 0;
+  padding:0;
+}
+body {
+  max-width:1000px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url("../images/bgPattern01.jpg");
+}
+header {
+  width:100%;
+  height: 300px;
+  background-image: url("../images/pattern.jpeg");
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 100px;
+  color: khaki;
+  text-align: center;
+}
+main {
+  background-color: FloralWhite;
+}
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ nav li {
+   float: left;
+}
+nav li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+img {
+  align:right;
+  margin-right: 15px;
+}
+.prodInfo{
+  min-height:250px;
+}
+.startPrice {
+  font-weight: bold;
+  color: blue;
+}
+.brushes {
+  background-color:mediumspringgreen;
+  padding: 10px 5px;
+
+}
+.frames{
+  background-color: lightcoral;
+  padding: 10px 5px;
+}
+.paints{
+  background-color:skyblue;
+  padding: 10px 5px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
